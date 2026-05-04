@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "path-space-variational-bridges"
+version = "0.1.0"
+description = "Toy experiments and paper source for Path-Space Variational Bridges."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Tiantian Zhang", email = "t.zhang8@columbia.edu"}]
+keywords = ["diffusion-models", "rectified-flow", "flow-matching", "schrodinger-bridges", "poisson-flow", "generative-models"]
+dependencies = ["numpy>=1.23", "scipy>=1.9", "scikit-learn>=1.1", "matplotlib>=3.6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "scripts", "examples", "tests"]

@@ -1,0 +1,17 @@
+name: Build paper
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile LaTeX paper
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: paper
+          args: -pdf -interaction=nonstopmode -halt-on-error

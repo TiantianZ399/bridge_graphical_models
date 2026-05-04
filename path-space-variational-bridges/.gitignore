@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# LaTeX intermediates
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.toc
+paper/main.pdf
+
+# Optional generated outputs
+outputs/*
+!outputs/.gitkeep
+figures/*.png
+figures/*.pdf
