@@ -106,41 +106,6 @@ python examples/field_line_demo.py
 
 This demo makes the Poisson/electrostatic bridge idea concrete, but it is not a full PFGM implementation.
 
-## Compile the paper
-
-The JMLR class already manages `natbib`; do **not** add numeric `natbib` options to `paper/main.tex`.
-
-```bash
-cd paper
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-```
-
-Since `paper/main.bbl` is included, this often works with only:
-
-```bash
-cd paper
-pdflatex main.tex
-pdflatex main.tex
-```
-
-From the repository root:
-
-```bash
-make paper
-```
-
-## Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial path-space variational bridges repo"
-git branch -M main
-git remote add origin git@github.com:<your-username>/path-space-variational-bridges.git
-git push -u origin main
 ```
 
 ## Citation
