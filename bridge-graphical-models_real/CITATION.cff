@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or manuscript, please cite it as below."
+title: "Path-Space Variational Bridges: Couplings, Gauges, and Field-Line Bridges for Generative Modeling"
+version: 0.1.0
+date-released: 2026-05-04
+authors:
+  - family-names: Zhang
+    given-names: Tiantian
+    email: t.zhang8@columbia.edu
+repository-code: "https://github.com/<your-username>/path-space-variational-bridges"

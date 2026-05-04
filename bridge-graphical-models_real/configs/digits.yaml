@@ -1,0 +1,10 @@
+dataset: digits
+latent_dim: 16
+n: 1000
+seeds: [0, 1, 2]
+k_neighbors: 32
+train_steps: 600
+batch_size: 256
+hidden_dim: 128
+lr: 0.001
+ode_steps: 50

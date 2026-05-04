@@ -1,0 +1,20 @@
+{
+  "dataset": "lfw",
+  "image_shape": [
+    25,
+    25
+  ],
+  "num_loaded_samples": 200,
+  "latent_dim": 16,
+  "explained_variance_ratio": 0.8980831036519126,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n": 150,
+  "k_neighbors": 16,
+  "ridge_repeats": 8,
+  "ridge": 0.0001,
+  "ode_steps": 50
+}

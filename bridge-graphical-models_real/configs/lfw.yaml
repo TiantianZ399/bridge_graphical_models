@@ -1,0 +1,10 @@
+dataset: lfw
+latent_dim: 16
+n: 150
+seeds: [0, 1, 2]
+k_neighbors: 16
+train_steps: 300
+batch_size: 128
+hidden_dim: 128
+lr: 0.001
+ode_steps: 50

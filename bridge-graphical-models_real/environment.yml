@@ -1,0 +1,13 @@
+name: psvb
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - -e .

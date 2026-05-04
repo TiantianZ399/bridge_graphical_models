@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bridge-graphical-models"
+version = "0.2.0"
+description = "Bridge Graphical Models: Markovization-gap diagnostics and latent real-data benchmarks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Tiantian Zhang", email = "t.zhang8@columbia.edu"}]
+keywords = ["diffusion-models", "rectified-flow", "flow-matching", "schrodinger-bridges", "poisson-flow", "generative-models"]
+dependencies = ["numpy>=1.23", "scipy>=1.9", "scikit-learn>=1.1", "scikit-image>=0.20", "matplotlib>=3.6", "pandas>=1.5", "threadpoolctl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+realdata = ["torch>=2.0", "torchvision>=0.15", "tqdm>=4"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "scripts", "examples", "tests"]

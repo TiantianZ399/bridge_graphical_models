@@ -1,0 +1,10 @@
+dataset: cifar10
+latent_dim: 32
+n: 2000
+seeds: [0, 1, 2]
+k_neighbors: 32
+train_steps: 3000
+batch_size: 256
+hidden_dim: 256
+lr: 0.001
+ode_steps: 75
