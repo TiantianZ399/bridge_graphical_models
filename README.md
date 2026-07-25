@@ -7,3 +7,4 @@ in submission and under review.
 
 https://www.kaggle.com/code/crystalcheung399/bgm-reviewer-verification-kaggle reviewer kaggle notebook.
 https://www.kaggle.com/code/crystalcheung399/bgm-rebuttal-exact3d-gaussian-ot-gpu-proxy
+https://www.kaggle.com/code/tiantian1zhang/bgm-3d-gaussian-ot-neural-markovization-kaggle
