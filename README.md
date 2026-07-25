@@ -6,3 +6,4 @@ The paper is in https://github.com/TiantianZ399/bridge_graphical_models/blob/52b
 in submission and under review.
 
 https://www.kaggle.com/code/crystalcheung399/bgm-reviewer-verification-kaggle reviewer kaggle notebook.
+https://www.kaggle.com/code/crystalcheung399/bgm-rebuttal-exact3d-gaussian-ot-gpu-proxy
